@@ -58,9 +58,9 @@ A infraestrutura é composta por três componentes principais:
 Para detalhes completos, consulte:
 
 * [VPN architecture](Docs/architecture.md)
-* [Setup VPS](Docs/setup-vps.md)
-* [Setup Raspberry](Docs/setup-raspberry.md)
-* [Setup Clients](Docs/setup-clients.md)
+* [Setup VPS](Docs/setup_vps.md)
+* [Setup Raspberry](Docs/setup_raspberry.md)
+* [Setup Clients](Docs/setup_clients.md)
 
 ---
 
