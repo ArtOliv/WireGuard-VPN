@@ -24,7 +24,7 @@ Ele será responsável por:
 
 Eu utilizei uma máquina virtual da **Oracle Cloud** pois possui IP público, essa configuração foi feita concetando na máquina via SSH.
 
-Crie um arquivo **wg0.conf** em **/etc/wireguard/** e usando como base o arquivo [wg0.conf](Configs/VPS/wg0.conf) disponibilizado, segue-se os passos:
+Crie um arquivo **wg0.conf** em **/etc/wireguard/** e usando como base o arquivo [wg0.conf](../Configs/VPS/wg0.conf) disponibilizado, segue-se os passos:
 
 ### 1. Geração de chaves
 

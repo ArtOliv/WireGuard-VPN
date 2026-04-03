@@ -24,7 +24,7 @@ Ele será responsável por:
 
 ## Configuração
 
-Crie um arquivo **wg0.conf** em **/etc/wireguard/** e usando como base o arquivo [wg0.conf](Configs/VPN/wg0.conf) disponibilizado, segue-se os passos:
+Crie um arquivo **wg0.conf** em **/etc/wireguard/** e usando como base o arquivo [wg0.conf](../Configs/VPN/wg0.conf) disponibilizado, segue-se os passos:
 
 ### 1. Geração de chaves
 
