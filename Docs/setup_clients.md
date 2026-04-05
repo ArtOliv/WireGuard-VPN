@@ -1,5 +1,9 @@
 # Client Setup
 
+**Languages:** [Portuguese](setup_clients.md) | [English](setup_clients.en.md)
+
+---
+
 ## Objetivo
 
 Permitir que clientes externos acessem:
@@ -46,7 +50,7 @@ echo "net.ipv4.ip_forward=1" | sudo tee -a /etc/sysctl.conf
 
 ---
 
-### Entendendo AllowedIPs
+## Entendendo AllowedIPs
 
 ```
 0.0.0.0/0 -> qualquer pacote entra no túnel

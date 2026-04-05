@@ -1,5 +1,9 @@
 # Raspberry Pi Setup (Gateway da LAN)
 
+**Languages:** [Portuguese](setup_raspberry.md) | [English](setup_raspberry.en.md)
+
+---
+
 ## Objetivo
 
 Configurar o Raspberry como gateway entre:

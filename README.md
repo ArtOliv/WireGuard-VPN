@@ -1,5 +1,9 @@
 # VPN - Secure Remote Access Infrastructure
 
+**Languages:** [Portuguese](README.md) | [English](README.en.md)
+
+---
+
 ## Descrição Geral
 
 Este projeto implementa uma infraestrutura **Peer to Peer** de acesso remoto seguro utilizando **WireGuard**, projetada para funcionar mesmo em ambientes com **CGNAT (Carrier-Grade NAT)**.
@@ -35,7 +39,7 @@ A infraestrutura é composta por três componentes principais:
 
 ## Fluxo de pacotes (Resumo)
 
-1. Cliente envia requisição para a rede local (ex: 192.168.100.X)
+1. Cliente envia requisição para a rede local (ex: 192.168.0.X)
 2. Tráfego é encapsulado via WireGuard até o VPS
 3. VPS encaminha para o Raspberry Pi
 4. Raspberry realiza NAT e envia para a LAN
@@ -73,8 +77,6 @@ git clone https://github.com/ArtOliv/WireGuard-VPN.git
 cd WireGuard-VPN
 ```
 
----
-
 ### 2. Instale o WireGuard
 
 Instale o wireguard em cada um dos nós, caso não esteja instalado, com:
@@ -82,8 +84,6 @@ Instale o wireguard em cada um dos nós, caso não esteja instalado, com:
 ```bash
 sudo apt install wireguard
 ```
-
----
 
 ### 3. Configurar o VPS
 
@@ -95,8 +95,6 @@ chmod +x setup-vps.sh
 ./setup-vps.sh
 ```
 
----
-
 ### 4. Configurar o Raspberry Pi
 
 Depois clonar o reposotório no Raspberry Pi, execute:
@@ -106,8 +104,6 @@ cd scripts
 chmod +x setup-raspberry.sh
 ./setup-raspberry.sh
 ```
-
----
 
 ### 5. Configurar o Cliente
 

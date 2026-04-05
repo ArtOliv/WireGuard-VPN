@@ -1,5 +1,9 @@
 # VPS Setup (WireGuard Hub)
 
+**Languages:** [Portuguese](setup_vps.md) | [English](setup_vps.en.md)
+
+---
+
 ## Objetivo
 
 Configurar o VPS como nó central (hub) da VPN.

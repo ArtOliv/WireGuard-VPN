@@ -1,5 +1,9 @@
 # System Architecture
 
+**Languages:** [Portuguese](architecture.md) | [English](architecture.en.md)
+
+---
+
 ## Descrição
 
 A arquitetura desse sistema é de acesso remoto seguro baseada em um modelo hub-and-spoke utilizando WireGuard.
